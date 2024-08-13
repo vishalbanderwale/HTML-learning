@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms</title>
+  </head>
+  <body>
+    <form>
+      <label for="name"> name</label>
+      <input type="text" id="name" name="first name" value="1" />
+      <input type="text" id="name" name="last name" />
+      <!--name=value after submitting the submit button in the form-->
+      <!--label for value should to be equal to id value for bidding together-->
+      <!--name attribute is compulsory if not value data will not be sent-->
+      <br />
+      <br />
+      <input type="checkbox" name="options" value="2" />
+      <label>option 1</label>
+      <br />
+      <br />
+      <input type="radio" name="radio" value="3" />
+      <label>option 2</label>
+      <br />
+      <br />
+      <input type="file" name="file" value="4" />
+      <label>option 3</label>
+      <br />
+      <br />
+      <input type="datetime-local" name="time" value="5" />
+      <label>option 4</label>
+      <br />
+      <br />
+      <input type="button" name="button" value="button" />
+      <label>option 5</label>
+      <button type="button" onclick="alert('hello world')">click me</button>
+      <br />
+      <br />
+      <input type="password" name="password" value="password" />
+      <label>option 6</label>
+      <br />
+      <br />
+      <input type="submit" name="submit" value="submit" />
+      <label>submit</label>
+      <br />
+      <br />
+      <input type="search" name="search" placeholder="search" />
+      <!--if we write value="search bar" it will be displayed instead of placeholder-->
+      <label>option 7</label>
+      <br />
+      <br />
+      <textarea nam="fname">hello world</textarea>
+      <br />
+      <br />
+      <label for="vehlicle">select options:</label>
+      <select id="vehlicle" name="cars">
+        <option value="swift">red</option>
+        <option value="tata">blue</option>
+        <option value="ford">green</option>
+      </select>
+      <input type="submit" value="submit" />
+      <!--when we click submit button name=value (we can also write same name as value swift instead of red)-->
+    </form>
+  </body>
+</html>
